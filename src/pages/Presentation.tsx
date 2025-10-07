@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Presentation as PresentationIcon } from "lucide-react";
 
 const Presentation = () => {
-  const presentationUrl = "#"; // The user will add their link here later
+  const presentationUrl = "https://docs.google.com/presentation/d/1L15rTHRb2JToCpAItYe8V9mhEDOzGMCeQHmrLbe3gSg/edit?slide=id.p1#slide=id.p1";
 
   return (
     <div className="min-h-screen py-12 px-4 flex items-center justify-center">
@@ -49,11 +49,7 @@ const Presentation = () => {
             size="lg"
             className="gap-3 text-lg px-8 py-6"
             onClick={() => {
-              if (presentationUrl === "#") {
-                alert("Ներկայացման հղումը դեռ չի ավելացված։ Խնդրում ենք ավելացնել հղումը կոդում։");
-              } else {
-                window.open(presentationUrl, "_blank");
-              }
+              window.open(presentationUrl, "_blank");
             }}
           >
             <ExternalLink className="h-5 w-5" />
