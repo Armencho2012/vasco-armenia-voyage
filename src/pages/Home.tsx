@@ -12,9 +12,6 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-transparent"></div>
         <div className="relative z-10 text-center text-white px-4 animate-fade-in">
           <Anchor className="h-20 w-20 mx-auto mb-6 animate-fade-in-scale" />
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">
-            Վասկո դա Գամա
-          </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed drop-shadow-md">
             Մեծ ուղեծրահայտ, ով բացեց նոր դարաշրջան մարդկության պատմության մեջ
           </p>
